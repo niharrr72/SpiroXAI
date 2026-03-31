@@ -1,0 +1,20 @@
+# Exclude the frontend specifically as requested
+frontend/
+
+# Python caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignored IDE specific directories
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

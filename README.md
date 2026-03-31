@@ -9,12 +9,11 @@ SpiroXAI is a clinical diagnostic system for lung disease, utilizing advanced ma
 - **Explainable AI**: Features integrated SHAP support for medical transparency.
 
 ## Project Structure
-- `backend/`: FastAPI application code for endpoints, authentication, user management, predictions, and report generation.
+- FastAPI application code for endpoints, authentication, user management, predictions, and report generation.
 - `saved_models/`: Pre-trained models (DNN, XGBoost, LightGBM, FT-Transformer) and encoders/scalers used for inference.
 - Notebooks: Development notebooks for EDA and model training (`h200.ipynb`, `new-python-dummy h100.ipynb`, etc.)
 - Explainability Plots: SHAP summary plots and various evaluation visualizations (confusion matrices, ROC curves, feature importance).
 
-*Note: The frontend code has been purposefully separated from this repository.*
 
 ## Requirements
 To install dependencies, please run:
